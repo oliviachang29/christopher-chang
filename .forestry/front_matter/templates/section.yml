@@ -4,7 +4,11 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Section Title
+  description: Appears as the section title.
+  config:
+    required: true
 - type: file
   name: image_url
-  label: image_url
+  label: IMAGE
+  description: Upload an image to appear on the side.
