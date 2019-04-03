@@ -50,19 +50,12 @@ html, body {
 	}
 }
 
-.section-title {
-	font-family: SofiaProSemiBold;
-	color: #000000;
-}
-
 .section-content {
 	margin-top: 20px;
 	@media (min-width: $md) {
 		margin-top: 10px;
 	}
 	p {
-		font-family: SofiaProLight;
-		color: #000000;
 		font-size: 1.1rem;
 		line-height: 2rem;
 	}
@@ -71,7 +64,8 @@ html, body {
 
 .section-index {
 	margin-bottom: 20px;
-	font-family: SofiaProSemiBold;
+	font-family: Sofia Pro;
+	font-weight: bold;
 	color: #000000;
 	display: none;
 	@media (min-width: $md) {

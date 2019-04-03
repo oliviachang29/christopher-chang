@@ -1,11 +1,35 @@
+@font-face {
+	font-family: 'Sofia Pro';
+	src: url('/assets/fonts/SofiaProLight.ttf')  format('truetype');
+	font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sofia Pro';
+	src: url('/assets/fonts/SofiaProRegular.ttf')  format('truetype');
+	font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sofia Pro';
+	src: url('/assets/fonts/SofiaProSemiBold.ttf')  format('truetype');
+	font-weight: bold;
+  font-style: normal;
+}
+
 h2 {
-	font-family: SofiaProSemiBold;
+	font-family: Sofia Pro;
+	font-weight: bold;
 }
 
 a {
-	font-family: SofiaProRegular;
+	font-family: Sofia Pro;
+	font-weight: normal;
 }
 
 p {
-	font-family: SofiaProLight;
+	font-family: Sofia Pro;
+	font-weight: lighter;
 }
