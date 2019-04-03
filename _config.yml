@@ -2,9 +2,6 @@
 title: Christopher Chang
 timezone: UTC
 collections:
-  posts:
-    title: Posts
-    output: true
   sections:
     title: Section
     output: false
