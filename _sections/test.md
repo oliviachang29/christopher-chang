@@ -8,6 +8,5 @@ text: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi
   ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet
   non magna.
 date: 2019-04-03 02:57:51 +0000
-published: false
 
 ---
