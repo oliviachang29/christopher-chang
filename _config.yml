@@ -1,19 +1,23 @@
+---
 title: Christopher Chang
-description: Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# Build settings
-markdown: kramdown
-theme: minima
-exclude:
-  - Gemfile
-  - Gemfile.lock
-sass:
-  style: compressed
+timezone: UTC
 collections:
+  posts:
+    title: Posts
+    output: true
   sections:
     title: Section
     output: false
   uploads:
     title: Uploads
     output: false
+description: Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+baseurl: ''
+url: ''
+markdown: kramdown
+theme: minima
+exclude:
+- Gemfile
+- Gemfile.lock
+sass:
+  style: compressed
