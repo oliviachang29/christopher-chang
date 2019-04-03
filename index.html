@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div id="fullpage">
+	{% for section in site.sections %}
+		{% assign remainder = forloop.index | modulo: 2 %}
+		<div class="section">
+			<div class="section-styling {% if remainder == 0 %} even-section {% endif %}">
+				<img class="lazy section-image" src="/assets/images/lazy.jpg" data-src="{{section.image_url}}">
+				<div class="section-content-container">
+					<h2 class="section-title">{{section.title}}</h2>
+					<div class="section-content">
+						{{section.content}}
+					</div>
+					<p class="section-index">{{forloop.index}} of {{site.sections.size}}</p>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>
