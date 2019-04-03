@@ -13,7 +13,8 @@ $(document).ready(function() {
 			// autoScrolling:true,
 			navigation: true,
 			navigationPosition: 'right',
-			responsiveWidth: md
+			responsiveWidth: md,
+			responsiveHeight: 400
 		});
 	 }
 });
