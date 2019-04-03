@@ -1,0 +1,23 @@
+---
+label: Section
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Section Title
+  description: Appears as the section title.
+  config:
+    required: true
+- type: file
+  name: image_url
+  label: IMAGE
+  description: Upload an image to appear on the side.
+- type: textarea
+  name: text
+  label: Text
+  description: Goes underneath the title
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+    required: true
