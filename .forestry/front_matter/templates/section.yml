@@ -7,13 +7,13 @@ fields:
   label: Section Title
   description: Appears as the section title.
   config:
-    required: true
+    required: false
 - type: image_gallery
   name: images
   label: Images
-  description: Max of 4 images (recommended). To make the site load faster, you can
-    make images smaller by resizing or optimizing them. Check out bulkresizephotos.com
-    and tinyjpg.com.
+  description: At least one is required, max of 4 images (recommended). To make the
+    site load faster, you can make images smaller by resizing or optimizing them.
+    Check out bulkresizephotos.com and tinyjpg.com.
 - type: textarea
   name: text
   label: Text
