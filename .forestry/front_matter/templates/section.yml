@@ -24,5 +24,3 @@ fields:
 - type: image_gallery
   name: images
   label: Images
-pages:
-- _sections/test.md
