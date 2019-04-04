@@ -26,14 +26,41 @@ html, body {
 	}
 }
 
-.section-image {
+.section-image-gallery {
 	width: 100%;
 	height: auto;
-	object-fit: cover;
+	display: flex;
+	flex-direction: column;
 	@media (min-width: $md) {
 		width: 50%;
 		height: 100vh;
 	}
+}
+
+.section-image-gallery-row {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	@media (min-width: $md) {
+		flex-direction: row;
+		width: 50%;
+		height: 50%;
+	}
+}
+
+.gallery-100-width {
+	width: 100%;
+}
+
+.gallery-100-height {
+	height: 100%;
+}
+
+.section-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .section-content-container {

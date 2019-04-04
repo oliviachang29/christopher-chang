@@ -2,18 +2,44 @@
 layout: default
 ---
 
+{% assign sections = site.sections | sort: "order" %}
+
 <div id="fullpage">
-	{% for section in site.sections %}
+	{% for section in sections %}
 		{% assign remainder = forloop.index | modulo: 2 %}
 		<div class="section">
 			<div class="section-styling {% if remainder == 0 %} even-section {% endif %}">
-				<img class="lazy section-image" src="/assets/images/lazy.jpg" data-src="{{section.image_url}}">
+				<div class="section-image-gallery">
+					{% for image in section.images %}
+						{% assign remainder = forloop.index | modulo: 2 %}
+						{% if remainder == 1 %}
+							<div class="section-image-gallery-row 
+								{% if forloop.index == section.images.size %}
+									gallery-100-width
+								{% endif %}
+								{% if section.images.size == 1 or section.images.size == 2 %}
+									gallery-100-height
+								{% endif %}
+									">
+						{% endif %}
+								<img class="lazy section-image" src="/assets/images/lazy.jpg" data-src="{{ image | relative_url }}">
+						{% if remainder == 0 %}
+							</div>
+						{% endif %}
+					{% endfor %}
+					{% assign size_modulo = section.images.size | modulo: 2 %}
+					<!-- odd number -->
+					{% if size_modulo == 1 %}
+						</div>
+					{% endif %}
+				</div>
+				<!-- <img class="lazy section-image" src="/assets/images/lazy.jpg" data-src="{{section.image_url}}"> -->
 				<div class="section-content-container">
 					<h2 class="section-title">{{section.title}}</h2>
 					<div class="section-content">
 						<p>{{section.text}}</p>
 					</div>
-					<p class="section-index">{{forloop.index}} of {{site.sections.size}}</p>
+					<p class="section-index">{{forloop.index}} of {{sections.size}}</p>
 				</div>
 			</div>
 		</div>
