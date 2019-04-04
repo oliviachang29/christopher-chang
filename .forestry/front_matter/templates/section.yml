@@ -8,10 +8,10 @@ fields:
   description: Appears as the section title.
   config:
     required: true
-- type: file
-  name: image_url
-  label: IMAGE
-  description: Upload an image to appear on the side.
+- type: image_gallery
+  name: images
+  label: Images
+  description: Max of 4 images (recommended). To make the site load faster, you can make images smaller by resizing or optimizing them. Check out bulkresizephotos.com and tinyjpg.com.
 - type: textarea
   name: text
   label: Text
