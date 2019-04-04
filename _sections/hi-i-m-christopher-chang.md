@@ -1,6 +1,6 @@
 ---
 title: Hi, I'm Christopher Chang.
-image_url: ''
+image_url: '/uploads/intro.jpg'
 text: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
   Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper
   nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum
