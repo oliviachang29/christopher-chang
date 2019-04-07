@@ -1,7 +1,10 @@
 ---
 order: 1
-title: Hi, I'm Christopher Chang.
-text: "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo."
+title: Hi, I'm Christopher!
+text: I'm so happy to introduce myself! I grew up in Honolulu, Hawaii, and I currently
+  live in the San Francisco Bay Area. I'm a high school teacher. This year I'm teaching
+  geometry and calculus. My job is both rewarding and challenging!
 images:
 - "/uploads/intro.jpg"
+
 ---
