@@ -6,5 +6,6 @@ text: I'm so happy to introduce myself! I grew up in Honolulu, Hawaii, and I cur
   geometry and calculus. My job is both rewarding and challenging!
 images:
 - "/upload/disneyland.jpg"
+published: false
 
 ---
