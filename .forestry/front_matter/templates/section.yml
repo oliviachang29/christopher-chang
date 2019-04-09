@@ -8,6 +8,13 @@ fields:
   description: Appears as the section title.
   config:
     required: false
+- type: number
+  label: Order
+  name: order
+  description: 'This determines the order in which the sections appear on the website. '
+  config:
+    min: '1'
+    step: '1'
 - type: image_gallery
   name: images
   label: Images
