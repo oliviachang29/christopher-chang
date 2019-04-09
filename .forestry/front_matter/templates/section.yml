@@ -23,3 +23,5 @@ fields:
     schema:
       format: markdown
     required: true
+pages:
+- _sections/hi-i-m-christopher.md
